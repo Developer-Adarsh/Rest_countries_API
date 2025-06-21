@@ -5,11 +5,24 @@
 }
 
 body {
-    background-color: #FAFAFA;
-    font-family: nunito sans;
+  background-color: #fafafa;
+  font-family: nunito sans;
 }
 
-button, input, textarea {
+
+main {
+    margin-inline: 24px;
+}
+
+a {
+    text-decoration-line: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+button,
+input,
+textarea {
   font-family: inherit;
 }
 
@@ -30,4 +43,42 @@ header {
   padding-block: 15px;
 }
 
+.countries-container {
+  margin-block: 50px;
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
 
+.country-card {
+  display: inline-block;
+  width: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.country-card img {
+  width: 100%;
+}
+
+.card-text {
+  margin: 10px 15px;
+}
+
+.card-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 13px;
+  margin-bottom: 3px;
+  font-weight: 400;
+}
