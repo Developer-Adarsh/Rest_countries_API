@@ -1,0 +1,55 @@
+main {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.back-btn {
+  margin-top: 60px;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 2px 13px;
+  font-size: 13px;
+}
+
+.country-details  {
+    margin-top: 50px;
+    display: flex;
+    gap: 64px;
+}
+
+
+.country-details img {
+    width: 50%;
+}
+
+.details-text-container {
+    margin-top: 40px;
+}
+.details-text-container h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.details-text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 130px;
+    gap: 3px 60px;
+    
+}
+
+.details-text p {
+    font-size: 14px;
+}
+
+.border-countries {
+    margin-top: 70px;
+}
+
+.border-countries a {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 2px 13px;
+  font-size: 13px;
+}
